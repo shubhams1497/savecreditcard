@@ -1,0 +1,56 @@
+.AddCardForm-Modal{
+    position: fixed;
+    width: 100%;
+    height: 100%; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(1,1,1,0.7);
+    z-index: 2;
+    cursor: pointer; 
+}
+
+.AddCardForm{
+    background-color: rgb(232, 242, 243);
+    /* width:40%; */
+    margin: auto;
+    border: 2px solid gray; 
+}
+
+
+.AddCardForm .Input-box{
+    width: 350px;
+    height: 50px;
+    margin: 20px 5px;
+    border: 1px solid gray;
+    background-color: white;
+    padding-top: 10px; 
+}
+
+.AddCardForm .Input-box img{
+    vertical-align: top;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.AddCardForm .Input-box input{
+    font-size: 16px; 
+    outline: none;
+    border: 0px;
+    width: 280px;
+}
+
+.AddCardForm Button{
+    font-size: 16px; 
+    cursor: pointer;
+    margin: 20px 5px;
+}
+
+.row-display{
+    display: flex;
+}

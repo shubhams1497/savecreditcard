@@ -1,0 +1,35 @@
+.saved-cards-list{
+    list-style: none;
+    padding: 0;
+    margin: 50px 0;
+    
+}
+
+.saved-cards-list li{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 5px 0; 
+}
+
+.saved-cards-list li span img{
+    cursor: pointer;
+}
+
+.card-info{
+    width: 40%;
+}
+
+.card-info-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-info-row a, .card-info-row p{
+    margin: auto 0;
+}
+
+/* .card-info-row img{
+    vertical-align: top;
+} */
